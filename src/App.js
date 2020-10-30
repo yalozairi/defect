@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./components/Home";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./styles";
+import Footer from "./components/Footer";
 
 function App() {
   const theme = {
@@ -13,6 +14,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Home />
+      <Footer />
     </ThemeProvider>
   );
 }
