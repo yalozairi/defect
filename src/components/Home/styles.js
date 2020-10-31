@@ -7,3 +7,7 @@ export const Collage = styled.img`
 export const CollageTicker = styled.div`
   width: 100%;
 `;
+
+export const SpinningLogo = styled.img`
+  width: 100%;
+`;

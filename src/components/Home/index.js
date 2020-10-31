@@ -1,22 +1,14 @@
 import React from "react";
 // import logo from "../../logo.svg";
-import ReactPlayer from "react-player";
-import defectLogoSpin from "../../media/DefectLogoSpin.mp4";
+import defectLogoSpin from "../../media/DefectLogoSpin.gif";
 import collage from "../../media/Defect Collage.png";
-import { Collage /*CollageTicker*/ } from "./styles";
+import { Collage /*CollageTicker*/, SpinningLogo } from "./styles";
 // import Ticker from "react-ticker";
 
 const Home = () => {
   return (
     <div>
-      <ReactPlayer
-        url={defectLogoSpin}
-        width="100%"
-        height="100%"
-        playing={true}
-        loop={true}
-        muted={true}
-      />
+      <SpinningLogo src={defectLogoSpin} alt="Defect Logo" />
       <Collage src={collage} alt="Defect collage" />
 
       {/* <h1>hhii</h1>
