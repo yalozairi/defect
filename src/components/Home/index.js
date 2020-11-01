@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import logo from "../../logo.svg";
 import defectLogoSpin from "../../media/DefectLogoSpin.gif";
 import collage from "../../media/Defect Collage.png";
@@ -9,12 +9,17 @@ import {
   SpinningLogo,
 } from "./styles";
 // import Ticker from "react-ticker";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
   return (
     <div>
       <SpinningLogo src={defectLogoSpin} alt="Defect Logo" />
-      <DescriptionDiv>
+      <DescriptionDiv data-aos="fade-in">
         <Description>
           Defect is a non-profit organisation that has built it’s own brand to
           support an important cause. What started as a passion project by
@@ -34,6 +39,7 @@ const Home = () => {
           youth!
         </Description>
       </DescriptionDiv>
+
       <Collage src={collage} alt="Defect collage" />
 
       {/* <h1>hhii</h1>

@@ -13,7 +13,7 @@ const Footer = () => {
       <FooterWrapper>
         <div className="container">
           <div className="row">
-            <div class="col">
+            <div className="col">
               <a
                 target="_blank"
                 href="https://www.instagram.com/defect.kw/"
