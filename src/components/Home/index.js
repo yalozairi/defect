@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
       <SpinningLogo src={defectLogoSpin} alt="Defect Logo" />
-      <DescriptionDiv data-aos="fade-in">
+      <DescriptionDiv data-aos="fade-in" data-aos-delay="500">
         <Description>
           Defect is a non-profit organisation that has built it’s own brand to
           support an important cause. What started as a passion project by
