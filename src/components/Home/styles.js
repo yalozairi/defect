@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Collage = styled.img`
   width: 50%;
-  animation: marquee 6s linear infinite;
+  animation: marquee 10s linear infinite;
   @keyframes marquee {
     0% {
       transform: translate(0, 0);
@@ -14,7 +14,6 @@ export const Collage = styled.img`
 `;
 
 export const CollageMarquee = styled.div`
-  display: flex;
   width: 200%;
 `;
 
