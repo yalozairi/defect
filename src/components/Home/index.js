@@ -9,6 +9,7 @@ import {
   DescriptionDiv,
   SpinningLogo,
   SpinningLogoDiv,
+  ArabicDiv,
 } from "./styles";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -42,10 +43,28 @@ const Home = () => {
           youth!
         </Description>
       </DescriptionDiv>
-      <CollageMarquee>
+      <CollageMarquee data-aos="fade-in">
         <Collage src={collage} alt="Defect collage" />
         <Collage src={collage} alt="Defect collage" />
       </CollageMarquee>
+      <ArabicDiv data-aos="fade-in">
+        <Description>
+          عندما يريد العالم أن ‪يتكلّم ‬ ، فهو يتحدّث بلغة يونيكود. تسجّل الآن
+          لحضور المؤتمر الدولي العاشر ليونيكود (Unicode Conference)، الذي سيعقد
+          في 10-12 آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين
+          خبراء من كافة قطاعات الصناعة على الشبكة العالمية انترنيت ويونيكود، حيث
+          ستتم، على الصعيدين الدولي والمحلي على حد سواء مناقشة سبل استخدام
+          يونكود في النظم القائمة وفيما يخص التطبيقات الحاسوبية، الخطوط، تصميم
+          النصوص والحوسبة متعددة اللغات.
+        </Description>
+        <Description>
+          1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين خبراء من كافة
+          قطاعات الصناعة على الشبكة العالمية انترنيت ويونيكود، حيث ستتم، على
+          الصعيدين الدولي والمحلي على حد سواء مناقشة سبل استخدام يونكود في النظم
+          القائمة وفيما يخص التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة
+          متعددة اللغات.
+        </Description>
+      </ArabicDiv>
     </div>
   );
 };

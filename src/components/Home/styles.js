@@ -15,6 +15,7 @@ export const Collage = styled.img`
 
 export const CollageMarquee = styled.div`
   width: 200%;
+  overflow: hidden;
 `;
 
 export const SpinningLogoDiv = styled.div`
@@ -39,4 +40,11 @@ export const DescriptionDiv = styled.div`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 35px;
+`;
+
+export const ArabicDiv = styled.div`
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
 `;
