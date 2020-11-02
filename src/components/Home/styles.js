@@ -8,9 +8,15 @@ export const CollageTicker = styled.div`
   width: 100%;
 `;
 
+export const SpinningLogoDiv = styled.div`
+  align-items: center;
+`;
 export const SpinningLogo = styled.img`
   width: 100%;
   max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 `;
 
 export const Description = styled.h6`

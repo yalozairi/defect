@@ -7,6 +7,7 @@ import {
   Description,
   DescriptionDiv,
   SpinningLogo,
+  SpinningLogoDiv,
 } from "./styles";
 // import Ticker from "react-ticker";
 import Aos from "aos";
@@ -18,7 +19,9 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <SpinningLogo src={defectLogoSpin} alt="Defect Logo" />
+      <SpinningLogoDiv>
+        <SpinningLogo src={defectLogoSpin} alt="Defect Logo" />
+      </SpinningLogoDiv>
       <DescriptionDiv data-aos="fade-in" data-aos-delay="500">
         <Description>
           Defect is a non-profit organisation that has built it’s own brand to
