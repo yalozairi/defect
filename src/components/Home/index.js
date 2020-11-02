@@ -5,6 +5,7 @@ import collage from "../../media/Defect Collage.png";
 import {
   Collage,
   CollageMarquee,
+  WidthDiv,
   Description,
   DescriptionDiv,
   SpinningLogo,
@@ -43,10 +44,12 @@ const Home = () => {
           youth!
         </Description>
       </DescriptionDiv>
-      <CollageMarquee data-aos="fade-in">
-        <Collage src={collage} alt="Defect collage" />
-        <Collage src={collage} alt="Defect collage" />
-      </CollageMarquee>
+      <WidthDiv>
+        <CollageMarquee data-aos="fade-in">
+          <Collage src={collage} alt="Defect collage" />
+          <Collage src={collage} alt="Defect collage" />
+        </CollageMarquee>
+      </WidthDiv>
       <ArabicDiv data-aos="fade-in">
         <Description>
           عندما يريد العالم أن ‪يتكلّم ‬ ، فهو يتحدّث بلغة يونيكود. تسجّل الآن

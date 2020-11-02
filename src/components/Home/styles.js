@@ -15,12 +15,17 @@ export const Collage = styled.img`
 
 export const CollageMarquee = styled.div`
   width: 200%;
+`;
+
+export const WidthDiv = styled.div`
   overflow: hidden;
+  width: 100%;
 `;
 
 export const SpinningLogoDiv = styled.div`
   align-items: center;
 `;
+
 export const SpinningLogo = styled.img`
   width: 100%;
   max-width: 1000px;
