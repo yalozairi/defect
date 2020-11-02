@@ -1,11 +1,21 @@
 import styled from "styled-components";
 
 export const Collage = styled.img`
-  width: 100%;
+  width: 50%;
+  animation: marquee 6s linear infinite;
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
 `;
 
-export const CollageTicker = styled.div`
-  width: 100%;
+export const CollageMarquee = styled.div`
+  display: flex;
+  width: 200%;
 `;
 
 export const SpinningLogoDiv = styled.div`

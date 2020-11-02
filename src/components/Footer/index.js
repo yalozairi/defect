@@ -23,7 +23,7 @@ const Footer = () => {
               </a>
             </div>
 
-            <div class="col">
+            <div className="col">
               <a
                 target="_blank"
                 href="https://twitter.com/DEFECTKW1"

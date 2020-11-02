@@ -3,13 +3,13 @@ import React, { useEffect } from "react";
 import defectLogoSpin from "../../media/DefectLogoSpin.gif";
 import collage from "../../media/Defect Collage.png";
 import {
-  Collage /*CollageTicker*/,
+  Collage,
+  CollageMarquee,
   Description,
   DescriptionDiv,
   SpinningLogo,
   SpinningLogoDiv,
 } from "./styles";
-// import Ticker from "react-ticker";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -42,21 +42,10 @@ const Home = () => {
           youth!
         </Description>
       </DescriptionDiv>
-
-      <Collage src={collage} alt="Defect collage" />
-
-      {/* <h1>hhii</h1>
-      <CollageTicker>
-        <Ticker>
-          {() => (
-            <>
-              <h1></h1>
-              <Collage src={collage} alt="Defect collage" />
-            </>
-          )}
-        </Ticker>
-      </CollageTicker>
-      <h1>hhii</h1> */}
+      <CollageMarquee>
+        <Collage src={collage} alt="Defect collage" />
+        <Collage src={collage} alt="Defect collage" />
+      </CollageMarquee>
     </div>
   );
 };
