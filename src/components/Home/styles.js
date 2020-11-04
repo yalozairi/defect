@@ -53,3 +53,10 @@ export const ArabicDiv = styled.div`
   margin-right: auto;
   margin-top: 35px;
 `;
+
+export const ArabicDescription = styled.h6`
+  color: ${(props) => props.theme.lightGreen};
+  margin-bottom: 20px;
+  text-indent: 20px;
+  direction: rtl;
+`;
